@@ -24,9 +24,18 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-heading{
+  font-size: 35px;
+  color: aliceblue;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
+.App-description{
+  margin-bottom: 30px;
+  color: darkgrey;
+  font-size: 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +44,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.data{
+  margin-top: 20px;
+  font-size: 40px;
+  color: yellow;
 }
